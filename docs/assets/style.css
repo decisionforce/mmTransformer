@@ -50,30 +50,30 @@ pre {
   object-fit: cover;
 }
 .section .header .title {
-  margin: 0 120pt;
+  margin: 0 100pt;
   text-align: center;
-  font-size: 22pt;
+  font-size: 20pt;
 }
 
 /* Author */
 .section .author {
   margin: 5pt 0;
   text-align: center;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 /* Institution */
 .section .institution {
   margin: 5pt 0;
   text-align: center;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 /* Conference */
 .section .conference {
   margin: 5pt 0;
   text-align: center;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 /* Hyperlink (such as Paper and Code) */
@@ -95,7 +95,7 @@ pre {
 /* Section Title */
 .section .title {
   text-align: center;
-  font-size: 22pt;
+  font-size: 18pt;
   margin: 5pt 0 15pt 0;  /* top right bottom left */
 }
 
