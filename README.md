@@ -34,9 +34,9 @@
 
 1. Clone this repo from the GitHub.
 
-        git clone https://github.com/Mrmoore98/mmTransformer-open-source.git
+        git clone https://github.com/decisionforce/mmTransformer.git
 
-2. Download the pretrained model and data [[here](https://drive.google.com/file/d/16MYtMI_fpow-4pKmAWR_1ok2ui9NBn0c/view?usp=sharing)] and save it to `./models` and `./interm_data`.
+2. Download the pretrained model and data [[here](https://drive.google.com/file/d/10koDID95zoOnU3pb6AkHAqJInupMScJd/view?usp=sharing)] and save it to `./models` and `./interm_data`.
    
         cd mmTransformer
         mkdir models
@@ -44,7 +44,7 @@
 
 3. Finally, your directory structure should look something like this:
 
-        mmTransformer-open-source
+        mmTransformer
         └── models
             └── demo.pt
         └── interm_data
