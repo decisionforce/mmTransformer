@@ -7,7 +7,7 @@ import torch
 from torch.utils.data import Dataset
 
 # Tensorizerization & Vectorization
-# from .argoverse_convertor import ArgoverseConvertor
+from .argoverse_convertor import ArgoverseConvertor
 # Utilities
 from .utils import transform_coord, transform_coord_flip
 from .collate import collate_single_cpu
@@ -25,7 +25,7 @@ class STFDataset(Dataset):
         self.processed_data_path = cfg['processed_data_path']
         self.processed_maps_path = cfg['processed_maps_path']
 
-        # self.traj_processor = ArgoverseConvertor(cfg['traj_processor_cfg'])
+        self.traj_processor = ArgoverseConvertor(cfg['traj_processor_cfg'])
 
         # Load lane data
         with open(self.processed_maps_path, 'rb') as f:

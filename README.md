@@ -51,6 +51,24 @@
             └── argoverse_info_val.pkl
             └── map.pkl
 
+### Preprocess the dataset
+
+Alternatively, you can process the data from scratch using following commands.
+
+1. Download Argoverse dataset and create a symbolic link to `./data` folder or use following commands.
+
+        cd path/to/mmtransformer/root
+        mkdir data
+        cd data
+        wget https://s3.amazonaws.com/argoai-argoverse/forecasting_val_v1.1.tar.gz 
+        tar -zxvf  forecasting_val_v1.1.tar.gz
+
+2. Then extract the agent and map information from raw data via Argoverse API:
+
+        python -m lib.dataset.argoverse_convertor ./config/demo.py
+
+3. Finally, your directory structure should look something like above illustrated.
+
 
 Format of processed data in ‘argoverse_info_val.pkl’:
 
