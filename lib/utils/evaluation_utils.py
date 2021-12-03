@@ -277,7 +277,7 @@ class FormatData:
             self.city_names[name] = city_name[i]
             self.gt_trajectories[name] = gt
             self.forecasted_trajectories[name] = list(_pred_traj)
-            self.forecasted_probabilities[name] = list(softmax(pred_confs[i],axis=-1))
+            self.forecasted_probabilities[name] = list(pred_confs[i])
 
     @property
     def results(self):

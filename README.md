@@ -36,7 +36,7 @@
 
         git clone https://github.com/decisionforce/mmTransformer.git
 
-2. Download the pretrained model and data [[here](https://drive.google.com/file/d/10koDID95zoOnU3pb6AkHAqJInupMScJd/view?usp=sharing)] and save it to `./models` and `./interm_data`.
+2. Download the pretrained model and data [[here](https://drive.google.com/file/d/10koDID95zoOnU3pb6AkHAqJInupMScJd/view?usp=sharing)] (map.pkl for Python 3.7 is available [[here](https://drive.google.com/file/d/1HbsgutM1PKjPj-3IIA5kG3mJEMhHGhS0/view?usp=sharing)]) and save it to `./models` and `./interm_data`.
    
         cd mmTransformer
         mkdir models
